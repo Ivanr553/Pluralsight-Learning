@@ -1,11 +1,9 @@
 from dataclasses import dataclass
 
 @dataclass
-class Project:
+class User:
 	name: str
-	payment: int
-	client: str
+	age: int
+	city: str
 
-new_project = Project(client="Client Name", name="App",  payment=2000)
-
-print(new_project)
+new_user = User(name="John", age=30, city="New York")
