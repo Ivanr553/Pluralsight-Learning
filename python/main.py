@@ -1,5 +1,4 @@
 import pickle
-from dataclasses import dataclass
 from classes import User
 
 def serialize_user(user: User):
